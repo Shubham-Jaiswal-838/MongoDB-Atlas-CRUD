@@ -82,7 +82,7 @@ app.post("/post", async (req, res) =>{
 
 
 const PORT = 8080;
-mongoose.connect("mongodb+srv://Posts:0BzSUyCTqzW7p0QR@cluster0.hs9z0p4.mongodb.net/?retryWrites=true&w=majority")
+mongoose.connect("Enter your connection string")
 .then(() =>{
     console.log("Connected");
     app.listen(PORT, ()=>{
